@@ -1,0 +1,48 @@
+/* simply having .red allows for all types to follow the same color rule that have the same class name red */
+.red {
+    color: red /* first rule is to have a couple random texts in red */
+}
+
+body {
+    background-color: lightcyan /* second rule is to change the background color */
+}
+
+h1, h2.langheading {
+    text-decoration: underline; /* third rule underlined headings */
+}
+
+.strong {
+    font-weight: bold; /* fourth rule makes one text strong I guess */
+}
+
+.table-bordered th, -table-bordered td {
+    border-color: blue; /* borders have a blue color */
+    padding: 10px;
+}
+
+.table thead th {
+    background-color: lightblue; /* table background has a different color */
+    color: #333;
+}
+
+/* when hoverin mouse over buttons, they react with color */
+.btn-primary:hover {
+    background-color: darkblue
+}
+
+.btn-secondary:hover {
+    background-color: darkgray
+}
+
+.btn-success:hover {
+    background-color: darkgreen
+}
+
+.btn-danger:hover {
+    background-color: darkred
+}
+
+h1, h2 {
+    font-family: "Arial", sans-serif;
+    letter-spacing: 1px;
+}
