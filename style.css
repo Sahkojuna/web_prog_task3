@@ -7,6 +7,10 @@ body {
     background-color: lightcyan /* second rule is to change the background color */
 }
 
+body {
+    background-color:lightblue /* task 3 branch change css rule */
+}
+
 h1, h2.langheading {
     text-decoration: underline; /* third rule underlined headings */
 }
